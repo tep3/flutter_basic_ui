@@ -14,13 +14,14 @@ class QuoteApp extends StatelessWidget {
   }
 }
 
+// home page
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('quote'),
-        
+       
       ),
       body: Container(child: Text('test ..')),
     );
